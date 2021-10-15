@@ -1,8 +1,8 @@
-# Bleak
+# captivate
 
-An elegant AJAX driven theme for [Ghost](https://github.com/tryghost/ghost/). See a demo at: [bleak.peteramende.de](https://bleak.peteramende.de/)
+**Captivate** is a beautiful and responsive theme for the [Ghost](https://github.com/tryghost/ghost/) publishing platform. 
 
-If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zutrinken).
+This repo is a fork of the gorgeous [bleak theme](https://github.com/zutrinken/bleak) that aims to strip out the social elements and build upon the already beautiful theme. I plan to add other functionalities over time, along with possible iterations to the design. 
 
 ## Screenshots
 
@@ -17,13 +17,15 @@ If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zut
 </tr>
 </table>
 
-## ⭐️Features
+## ⭐️ Captivate's features: 
 
 * Responsive layout
 * Automatic code syntax highlight and line numbers
-* Disqus support
+* Simple to edit from within your Ghost dashboard
 
-## 🎨 Setup custom color
+## 🎨 In order to set up your own custom colors:
+
+### You can do this from within your Ghost dashboard. 
 
 1. Go to __Code injection__.  
 2. Add this to __Blog Header__:  
@@ -36,18 +38,9 @@ If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zut
 </style>
 ````
 
-## 💬 Setup [Disqus](https://disqus.com/)
+## Give your site a Sticky Header
 
-
-1. Go to __Code injection__.  
-2. Add this to __Blog Header__:  
-````
-<script>var disqus = 'YOUR_DISQUS_SHORTNAME';</script>
-````
-
-## Sticky Header
-
-You can make the navigation stick to the top by adding the following lines via code injection:
+Want to make your header nav stick to the top You can make the navigation stick to the top by adding the following lines via code injection:
 
 ```
 <style>
